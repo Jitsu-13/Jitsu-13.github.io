@@ -26,6 +26,8 @@
             <div id="sk"><p>SKILLS</p></div>
             <div id="pr"><p>PROJECTS</p></div>
             <div id="con"><p>CONTACT</p></div>
+            <div id="con"><p><a style="color: white; font-weight: bold;
+                background-color:#464bee;text-decoration: none;" href="https://drive.google.com/file/d/1MZQaBgmKcZWhhOnU2G_2bmHYO_abR18p/view?usp=sharing" target="_blank">RESUME</a></p></div>
         </div>
     </div>
     <div id="about">
@@ -33,7 +35,7 @@
             <h2>Hi 👋, my name is</h2>
             <h1 id="name">Sujit Yadav</h1>
             <h2>I'm a <span id="title">Full Stack Developer</span></h2>
-            <button><a id="resume" href="" target="_blank">Resume</a></button>
+            <button><a id="resume" href="./Yadav_Sujit_Vijayee_Resume.pdf" download="Yadav_Sujit_Vijayee_Resume">Resume</a></button>
             <div>
                 <img src="./Images/icons8-github-64 (1).png" alt="" id="icon2">
                 <img src="./Images/icons8-linkedin-circled-50.png" alt="" id="icon3">
@@ -212,12 +214,14 @@
                 <img id="dummy" src="./Images/contact.png" alt="">
             </div>
             <div>
-                 <form action="" name="google-sheet" id="form">
-                    <input type="text" id="myname" name="name" placeholder="Name">
-                    <input type="text" id="email" name="email" placeholder="Email">
-                    <input type="text" id="message" name="message" placeholder="Message">
+                <form action="https://formspree.io/f/mrgdnpak"
+                method="POST"  id="form" name="form" onsubmit="formSubmit()">
+                    <input type="text" id="myname" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="message" name="message" placeholder="Message" required>
                     <input type="submit" value="SEND" id="submit">
-                  </form>
+                </form>
+
                   <div id="emph">
                     <div>
                         <img src="./Images/email.png" alt="">
@@ -250,28 +254,6 @@
            }
         }).then(r => r.text())
     </script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx1R3yDyB71klxHdyonJtIEJvRGXDQWiOHVNh9Q95e8Tir2xcAwCYIexUy5t-UuLIw5/exec'
-        const form = document.forms['google-sheet']
-    
-        form.addEventListener('submit', e => {
-            e.preventDefault();
-            if(document.getElementById('myname').value === "" || document.getElementById('email').value === "" || document.getElementById('message').value === null) {
-                alert("Please fill all the details...");
-                    document.getElementById('form').reset();
-
-            } else {                       
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => {
-                        alert("Thanks for Contacting me..! I Will Contact You Soon...")
-                        document.getElementById('form').reset();
-                    })
-                    .catch(error => console.error('Error!', error.message))
-            }});
-
-    </script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

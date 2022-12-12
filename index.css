@@ -532,7 +532,7 @@ img {
     background-color:black;
 }
 
-form {
+#form {
     width:70%;
     display:flex;
     margin: auto;
