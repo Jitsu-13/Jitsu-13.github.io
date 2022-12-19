@@ -19,19 +19,22 @@ document.getElementById('home').addEventListener("click",()=> {
     window.scrollTo(0,0);
 
 });
+document.getElementById('logo').addEventListener("click",()=> {
+    window.scrollTo(0,0);
 
+});
 document.getElementById('sk').addEventListener("click",()=> {
     window.scrollTo(0,890);
 
 });
 
 document.getElementById('pr').addEventListener("click",()=> {
-    window.scrollTo(0,2320);
+    window.scrollTo(0,1670);
 
 });
 
 document.getElementById('con').addEventListener("click",()=> {
-    window.scrollTo(0,3990);
+    window.scrollTo(0,3000);
 
 });
 
@@ -46,7 +49,7 @@ document.getElementById('e2').addEventListener("click", ()=> {
     window.location.href = "https://chimerical-faun-6ad01a.netlify.app";
 });
 document.getElementById('e3').addEventListener("click", ()=> {
-    window.location.href = "";
+    window.location.href = "https://wonderful-parfait-412fbb.netlify.app";
 });
 
 

@@ -26,6 +26,9 @@ html {
     z-index: 100;
     
 }
+#logo{
+    cursor: pointer;
+}
 
 #navbar>div:nth-child(1) {
     height:auto;
@@ -291,11 +294,11 @@ h1,h2 {
     margin: auto;
     margin-top: 50px;
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 300px);
-    gap:7%;
-    height: 650px;
-    margin-bottom: 80px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap:10%;
+    height: 500px;
+    margin-bottom: 30px;
     /* border:1px solid white; */
     
 }
@@ -306,23 +309,23 @@ h1,h2 {
     align-items: center;
     justify-content: center;
 }
-#row2 {
+/* #row2 {
     width:90%;
     margin: auto;
     margin-top: 50px;
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 200px);
     gap:7%;
-    height: 350px;
+    height: 300px;
 
-}
-#row2>div {
+} */
+/* #row2>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 
 #row1>div:hover {
     margin: 4px;
@@ -330,9 +333,9 @@ h1,h2 {
 
 
 
-#row2 > div:hover {
+/* #row2 > div:hover {
     margin: 4px;
-}
+} */
 #skills img {
     width:82%;
     height:66%;
@@ -378,14 +381,16 @@ h1,h2 {
 }
 
 #proj>div {
-    width: 85%;
-    height: fit-content;
+    width: 90%;
+    height: auto;
+    /* border: 1px solid yellow; */
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 175px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 520px;
-    gap:100px;
+    grid-template-rows: 475px;
+    /* align-items: stretch; */
+    gap:3%;
     /* border:1px solid yellow; */
 }
 
@@ -394,7 +399,7 @@ h1,h2 {
     opacity: 1;
     border-radius: 15px;
     /* border: 1px solid red; */
-    height: fit-content;
+    height: 600px;
     padding-bottom: 15px;
 }
 
@@ -706,20 +711,20 @@ input {
 
     #row1{
         width:80%;
-        height:400px;
+        height:auto;
         margin: auto;
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
         display:grid;
-        grid-template-columns: repeat(3, 160px);
-        grid-template-rows: repeat(2, 180px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 220px);
         flex-wrap: wrap;
         gap:10%;
        
     }
 
     
-    #row2 {
+    /* #row2 {
         width:80%;
         height:250px;
         margin: auto;
@@ -730,7 +735,7 @@ input {
         flex-wrap: wrap;
         gap:10%;
     
-    }
+    } */
     
     .tech {
         color:rgb(243, 169, 19);
@@ -743,20 +748,23 @@ input {
 
     #proj {
         height:fit-content;
-        padding-bottom: 180px;
+        padding-bottom: 50px;
     }
 
     #proj>div {
-        width: 65%;
+        width: 60%;
         height: fit-content;
         margin: auto;
-        margin-bottom: 60px;
+        margin-bottom: 120px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 520px;
-        gap:15%;
+        grid-template-rows: repeat(3,500px); 
+        gap:100px;
     }
-
+    #proj>div>div{
+        height:fit-content;
+        /* margin-bottom: 100px; */
+    }
     #statbox {
         width: 95%;
         margin:fit-content;
@@ -859,7 +867,7 @@ input {
     }
 
     
-    #row2 {
+    /* #row2 {
         width:80%;
         height:450px;
         margin: auto;
@@ -872,7 +880,7 @@ input {
         gap:25%;
         justify-content: center;
     
-    }
+    } */
     
     .tech {
         margin:auto;
@@ -890,7 +898,7 @@ input {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 520px;
-        gap:100px;
+        gap: 100px;;
     }
 
     #proj>div>div {
