@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sujit-Yadav</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -13,6 +14,10 @@
   rel="stylesheet"
   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </head>
 <body>
@@ -26,10 +31,42 @@
             <div id="sk"><p>SKILLS</p></div>
             <div id="pr"><p>PROJECTS</p></div>
             <div id="con"><p>CONTACT</p></div>
-            <div id="con"><p><a style="color: white; font-weight: bold;
-                background-color:#464bee;text-decoration: none;" href="https://drive.google.com/file/d/1MZQaBgmKcZWhhOnU2G_2bmHYO_abR18p/view?usp=sharing" target="_blank">RESUME</a></p></div>
+            <div id="re"><p>RESUME</p></div>
         </div>
     </div>
+    <header>
+        <nav class="navbar">
+            <!-- <a href="#" class="nav-branding">DEV.</a> -->
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="h">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="a">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="s">SKILLS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="p">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="c">CONTACT</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+    </header>
     <div id="about">
         <div>
             <h2>Hi 👋, my name is</h2>
@@ -109,7 +146,7 @@
     </div>
     <div id="skills">
         <h2>Technical Skills</h2>
-        <h3 class="tech">BACKEND</h3>
+        <h3 class="tech"></h3>
         <div id="row1">
             <div><img src="https://icongr.am/devicon/java-original.svg?size=256&color=f06429" alt=""> 
                 <div><h2 style="color:white;margin-top: 35px;">Java</h2></div> </div>
@@ -146,26 +183,45 @@
     <div id="proj">
         <h2>Projects</h2>
         <div>
-            <div>
-                <img src="./Images/fiverr_clone.JPG" alt="Deccan" class="proimg">
+            <div class="ondiv" style="padding-bottom: 15px;">
+                <img src="./Images/fiverr_clone.JPG" alt="Deccan" class="proimg" >
                 <h3 class="protitle">Fiverr Clone</h3>
                 <div class="prodescri">
-                <p>Fiverr is a global online marketplace for freelance services.</p>
-                <p>Features:</p>
-                <p>Search | Sign-in/Sign-up | Sorting | Responsive | Api Data Fetch</p>
-                <p>An individual project developed within 2 Weeks</p>
-                <p style=" color:rgb(243, 169, 19); ">Tech Stack: <span style="color: white; background-color: black;">JavaScript | HTML | CSS</p>
-                <div class="view">
-                    <div>
-                        <img src="./Images/Eye.png" alt="" id="e3">
-                    </div>
-                    <div>
-                        <img src="./Images/icons8-github-64 (1).png" alt="" id="g3">
-                    </div>
-                </div>
+                    <p>Fiverr is a global online marketplace for freelance services.</p>
+                    <p>Features:</p>
+                    <p>Search | Sign-in/Sign-up | Sorting | Responsive | Api Data Fetch</p>
+                    <p>An individual project developed within 2 Weeks</p>
+                    <p style=" color:rgb(243, 169, 19); ">Tech Stack: <span style="color: white; background-color: black;">JavaScript | HTML | CSS</p>
+                    <div class="view">
+                        <div>
+                            <img src="./Images/Eye.png" alt="" id="e3">
+                        </div>
+                            <div>
+                                <img src="./Images/icons8-github-64 (1).png" alt="" id="g3">
+                            </div>
+                        </div>
                 </div>
             </div>
-            <div >
+            <div class="ondiv">
+                <img src="./Images/fiverr_clone.JPG" alt="Deccan" class="proimg" >
+                <h3 class="protitle">Fiverr Clone</h3>
+                <div class="prodescri">
+                    <p>Fiverr is a global online marketplace for freelance services.</p>
+                    <p>Features:</p>
+                    <p>Search | Sign-in/Sign-up | Sorting | Responsive | Api Data Fetch</p>
+                    <p>An individual project developed within 2 Weeks</p>
+                    <p style=" color:rgb(243, 169, 19); ">Tech Stack: <span style="color: white; background-color: black;">JavaScript | HTML | CSS</p>
+                    <div class="view">
+                        <div>
+                            <img src="./Images/Eye.png" alt="" id="e3">
+                        </div>
+                            <div>
+                                <img src="./Images/icons8-github-64 (1).png" alt="" id="g3">
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="ondiv">
                 <img src="./Images/Deccan Chronicle.JPG" alt="Deccan" class="proimg">
                 <h3 class="protitle">Deccan Chronicle Clone</h3>
                 <div class="prodescri">
@@ -185,7 +241,7 @@
                 </div>
                 </div>
             </div>
-            <div>
+            <div class="ondiv">
                 <img src="./Images/fab-bag.JPG" alt="fabbag" class="proimg">
                 <h3 class="protitle">Fab-Bag Clone</h3>
                 <div class="prodescri">
@@ -206,6 +262,15 @@
             </div>
         </div>
     </div>
+    <h2 id="stat">Stats</h2>
+    <div id="statbox">
+        <div><h1>1200+</h1> <p>Hours of coding</p></div>
+        <div><h1>400+</h1> <p>DSA problems</p></div>
+        <div><h1>4</h1> <p>Major projects</p></div>
+        <div><h1>420+</h1> <p>Git commits</p></div>
+        <div><h1>100+</h1> <p style="width: 60% ; text-align:center; margin-top:0px;">Hours of soft skill trainings</p></div>
+    </div>
+
     <h2 id="gitcont">GitHub Contribution Calendar</h2>
     <div id="cal">
         <div class="calendar">

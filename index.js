@@ -11,7 +11,7 @@ document.getElementById('icon3').addEventListener("click",()=> {
 
 
 document.getElementById('ab').addEventListener("click",()=> {
-    window.scrollTo(0,475);
+    window.scrollTo(0,500);
 
 });
 
@@ -24,7 +24,7 @@ document.getElementById('logo').addEventListener("click",()=> {
 
 });
 document.getElementById('sk').addEventListener("click",()=> {
-    window.scrollTo(0,890);
+    window.scrollTo(0,950);
 
 });
 
@@ -34,12 +34,13 @@ document.getElementById('pr').addEventListener("click",()=> {
 });
 
 document.getElementById('con').addEventListener("click",()=> {
-    window.scrollTo(0,3000);
+    window.scrollTo(0,3920);
 
 });
+document.getElementById('re').addEventListener("click",()=> {
+    window.open("./Yadav_Sujit_Vijayee_Resume.pdf", '_blank');
 
-
-
+});
 
 document.getElementById('e1').addEventListener("click", ()=> {
     window.location.href = "https://bucolic-begonia-e0b49a.netlify.app";
@@ -65,7 +66,44 @@ document.getElementById('g3').addEventListener("click", ()=> {
 });
 
 
+const hamburger = document.querySelector(".hamburger");
+const navMenu= document.querySelector('.nav-menu');
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
 
 
+document.getElementById('h').addEventListener("click",()=> {
+    window.scrollTo(0,0);
+
+})
+
+document.getElementById('a').addEventListener("click",()=> {
+    window.scrollTo(0,1000);
+
+})
+
+document.getElementById('s').addEventListener("click",()=> {
+    window.scrollTo(0,1390);
+
+})
+
+document.getElementById('p').addEventListener("click",()=> {
+    window.scrollTo(0,2900);
+
+})
+
+
+document.getElementById('c').addEventListener("click",()=> {
+    window.scrollTo(0,5600);
+
+})
 
 
