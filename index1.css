@@ -236,6 +236,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap:8%;
     position: relative;
+    
 
 }
 
@@ -614,12 +615,14 @@ input {
     color:white;
     text-decoration: none;
     color:white;
-    margin-top: 16px;
+    margin-top: -16px;
     background-color: #464bee;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(31, 13, 86));
     cursor:pointer;
     width:fit-content;
-    padding:5px 25px;
+    padding:10px 25px;
+    border-radius: 10px;
+    margin-bottom: 60px;
 }
 
 ::placeholder { 

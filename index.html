@@ -184,8 +184,46 @@
         <h2>Projects</h2>
         <div>
             <div class="ondiv" style="padding-bottom: 15px;">
-                <img src="./Images/fiverr_clone.JPG" alt="Deccan" class="proimg" >
-                <h3 class="protitle">Fiverr Clone</h3>
+                <img src="./Images/corona.jpg" alt="Deccan" class="proimg" >
+                <h3 class="protitle">Covid-19 Management System</h3>
+                <div class="prodescri">
+                    <p>Fiverr is a global online marketplace for freelance services.</p>
+                    <p>Features:</p>
+                    <p>Search | Sign-in/Sign-up | Sorting | Responsive | Api Data Fetch</p>
+                    <p>An individual project developed within 2 Weeks</p>
+                    <p style=" color:rgb(243, 169, 19); ">Tech Stack: <span style="color: white; background-color: black;">JavaScript | HTML | CSS</p>
+                    <div class="view">
+                        <div>
+                            <img src="./Images/Eye.png" alt="" id="e3">
+                        </div>
+                            <div>
+                                <img src="./Images/icons8-github-64 (1).png" alt="" id="g3">
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="ondiv" style="padding-bottom: 15px;">
+                <img src="./Images/trip.jpg" alt="Deccan" class="proimg" >
+                <h3 class="protitle">Trip Management Project</h3>
+                <div class="prodescri">
+                    <p>Fiverr is a global online marketplace for freelance services.</p>
+                    <p>Features:</p>
+                    <p>Search | Sign-in/Sign-up | Sorting | Responsive | Api Data Fetch</p>
+                    <p>An individual project developed within 2 Weeks</p>
+                    <p style=" color:rgb(243, 169, 19); ">Tech Stack: <span style="color: white; background-color: black;">JavaScript | HTML | CSS</p>
+                    <div class="view">
+                        <div>
+                            <img src="./Images/Eye.png" alt="" id="e3">
+                        </div>
+                            <div>
+                                <img src="./Images/icons8-github-64 (1).png" alt="" id="g3">
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="ondiv" style="padding-bottom: 15px;">
+                <img src="./Images/auction.jpg" alt="Deccan" class="proimg" >
+                <h3 class="protitle">Trip Management Project</h3>
                 <div class="prodescri">
                     <p>Fiverr is a global online marketplace for freelance services.</p>
                     <p>Features:</p>
@@ -286,14 +324,14 @@
                 <img id="dummy" src="./Images/contact.png" alt="">
             </div>
             <div>
-                <form action="https://formspree.io/f/mrgdnpak"
-                method="POST"  id="form" name="form" onsubmit="formSubmit()">
+                <!-- <form action="https://formspree.io/f/mrgdnpak"
+                method="POST"  id="form" name="form" onsubmit="formSubmit()"> -->
+                <form id="form" name="Myform">
                     <input type="text" id="myname" name="name" placeholder="Name" required>
                     <input type="email" id="email" name="email" placeholder="Email" required>
                     <input type="text" id="message" name="message" placeholder="Message" required>
-                    <input type="submit" value="SEND" id="submit">
+                    <button type="submit" id="submit">Send message</button>
                 </form>
-
                   <div id="emph">
                     <div>
                         <img src="./Images/email.png" alt="">
@@ -308,6 +346,41 @@
         </div>
         <p> Designed and built by Sujit Yadav, © 2022-2023 all rights reserved. </p>
     </div>
+
+    <script>
+        document
+        .getElementById("form")
+        .addEventListener("submit", function (event) {
+            event.preventDefault();
+            var params={
+                from_name:document.getElementById("myname").value,
+                email_id :document.getElementById("email").value,
+                message: document.getElementById("message").value
+            }
+            const serviceID = "service_bhk0t88";
+            const templateID = "template_ofvk02j";
+            // send the email here
+            emailjs.send(serviceID, templateID, params).then(
+              (response) => {
+                console.log("Email Sent Successfully !", response.status, response.text);
+                alert("Email Sent Successfully !");
+                document.Myform.reset();
+              },
+              (error) => {
+                console.log("FAILED...", error);
+                alert("FAILED...", error);
+                document.Myform.reset();
+              }
+            );
+          });
+        </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('tpT2P7423-SMtBia7');
+            })();
+        </script>
 
     <script
             src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">

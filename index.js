@@ -34,7 +34,7 @@ document.getElementById('pr').addEventListener("click",()=> {
 });
 
 document.getElementById('con').addEventListener("click",()=> {
-    window.scrollTo(0,3920);
+    window.scrollTo(0,4500);
 
 });
 document.getElementById('re').addEventListener("click",()=> {
@@ -96,7 +96,7 @@ document.getElementById('s').addEventListener("click",()=> {
 })
 
 document.getElementById('p').addEventListener("click",()=> {
-    window.scrollTo(0,2900);
+    window.scrollTo(0,2420);
 
 })
 
