@@ -203,6 +203,16 @@
     #gitcont, #cal {
         display: none;
     }
+    /* #emph {
+        width: 70%;
+        margin: auto;
+        height:auto;
+        background-color: black;
+        padding:2px 35px ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: -25px;
+      } */
 
     #dummy {
         display:none;
@@ -291,4 +301,22 @@
     h1 {
       font-size: 24px;
     }
+  }
+
+
+
+
+  #contact>#social{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 0px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact>#social>div>img{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+
   }

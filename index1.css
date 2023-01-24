@@ -636,6 +636,8 @@ input {
     height:auto;
     background-color: black;
     padding:2px 35px ;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
     margin-top: -25px;
   }
 

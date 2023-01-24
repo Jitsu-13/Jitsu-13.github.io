@@ -12,6 +12,21 @@ document.getElementById('icon4').addEventListener("click",()=> {
     // window.location.href = "https://www.linkedin.com/in/yadav-sujit-vijayee/";
     window.open("https://mail.google.com/mail/?view=cm&to=sujit.v.yadav@gmail.com&su=&body=", '_blank');
 });
+document.getElementById('icon10').addEventListener("click",()=> {
+    // window.location.href = "https://www.linkedin.com/in/yadav-sujit-vijayee/";
+    window.open("https://www.linkedin.com/in/yadav-sujit-vijayee/", '_blank');
+});
+document.getElementById('icon11').addEventListener("click",()=> {
+    // window.location.href = "https://github.com/Jitsu-13";
+    window.open("https://github.com/Jitsu-13", '_blank');
+});
+document.querySelector(".icon12").addEventListener("click",()=> {
+    // window.location.href = "https://github.com/Jitsu-13";
+    window.open("https://mail.google.com/mail/?view=cm&to=sujit.v.yadav@gmail.com&su=&body=", '_blank');
+});
+
+
+
 
 
 
