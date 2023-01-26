@@ -73,17 +73,37 @@ document.getElementById('e2').addEventListener("click", ()=> {
 document.getElementById('e3').addEventListener("click", ()=> {
     window.location.href = "https://wonderful-parfait-412fbb.netlify.app";
 });
+document.getElementById('e4').addEventListener("click", ()=> {
+    window.location.href = "https://starlit-paprenjak-1dd941.netlify.app/";
+})
+
+document.getElementById('e5').addEventListener("click", ()=> {
+    window.location.href = "https://bucolic-begonia-e0b49a.netlify.app/";
+});
+document.getElementById('e6').addEventListener("click", ()=> {
+    window.location.href = "https://chimerical-faun-6ad01a.netlify.app";
+});
 
 
 document.getElementById('g1').addEventListener("click", ()=> {
-    window.location.href = "https://github.com/sanki1223/swank-meeting-7218";
+    window.location.href = "https://github.com/Jitsu-13/piquant-mother-8005";
 })
 
 document.getElementById('g2').addEventListener("click", ()=> {
-    window.location.href = "https://github.com/Jitsu-13/high-toad-3125";
+    window.location.href = "https://github.com/Jitsu-13/Trip_Management_Rest_API";
 });
 document.getElementById('g3').addEventListener("click", ()=> {
-    window.location.href = "https://github.com/Jitsu-13/Fiverr";
+    window.location.href = "https://github.com/Jitsu-13/Auction_Management_System";
+});
+document.getElementById('g4').addEventListener("click", ()=> {
+    window.location.href = "https://github.com/Jitsu-13/Freelace_FIver";
+})
+
+document.getElementById('g5').addEventListener("click", ()=> {
+    window.location.href = "https://github.com/DevSankalp1894/swank-meeting-7218";
+});
+document.getElementById('g6').addEventListener("click", ()=> {
+    window.location.href = "https://github.com/Jitsu-13/high-toad-3125";
 });
 
 
