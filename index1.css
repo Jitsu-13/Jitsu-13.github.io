@@ -14,7 +14,8 @@
 
 
 * {
-    background-color:#02022a;
+    /* background-color:#02022a; */
+    background-color:rgb(17,32,58);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -31,7 +32,8 @@ html {
     justify-content: space-between;
     align-items: center;
     color:white;
-    background-color:#464bee;
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
     margin-bottom: 130px;
     position: fixed;
     top:0;
@@ -41,6 +43,7 @@ html {
     
 }
 #logo{
+    color: rgb(17,32,58);
     cursor: pointer;
 }
 
@@ -53,34 +56,39 @@ html {
     justify-content: flex-start;
     margin-left: 50px;
     position: relative;
-    background-color:#464bee;
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
     
 
 }
 
 #navbar>div:nth-child(1)>div {
-    background-color:#464bee;
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
 }
 
 #navbar>div:nth-child(2) {
     height:auto;
-    width:40%;
+    width:60%;
     padding: 7px;
     border: 1px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     margin-right: 100px;
     position: relative;
-    background-color:#464bee;
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
 }
 
 #navbar>div:nth-child(2)>div {
-    display: flex;
-    width: 14%;
+    /* display: flex; */
+    /* width: 14%; */
     align-items: center;
     border: 1px;
-    justify-content: space-evenly;
-    background-color:#464bee;
+    /* justify-content: space-evenly; */
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
 }
 
 #navbar>div:nth-child(2)>div>p:hover {
@@ -91,11 +99,12 @@ html {
 }
 #navbar>div:nth-child(2)>div>p {
     font-weight: bold;
-    background-color:#464bee;
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
 }
-
 #navbar h1 {
-    background-color:#464bee;
+    /* background-color:#464bee; */
+    background-color:rgb(55,129,226);
     color:white;
 }
 
@@ -107,20 +116,14 @@ html {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(31, 13, 86));
 
 }
-
-
-
 *{
   padding:0;
   margin: 0;
   /* box-sizing: border-box; */
-
 }
-
 header {
     background-color: black;
-   
-    
+      
 }
 
 li {
@@ -256,7 +259,7 @@ a {
 }
 
 #about>div:first-child>button {
-    background-color: #464bee;
+    background-color: rgb(55,129,226);
     height: 40px;
     width: 110px;
     border-radius: 6px;
@@ -265,7 +268,7 @@ a {
     letter-spacing: 1.5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-top: 10px;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(31, 13, 86));
+    background-image: linear-gradient(to right, rgb(55,129,226), rgb(31, 13, 86));
 
 }
 
@@ -280,7 +283,8 @@ a {
 }
 
 #title {
-    color: rgb(243, 169, 19);
+    /* color: rgb(243, 169, 19); */
+    background-color:rgb(55,129,226);
     font-weight: bold;
    
 }
@@ -288,7 +292,7 @@ a {
 #pic {
     height:90%;
     width: 90%;
-    background-color: #464bee;
+    background-color: rgb(55,129,226);
     border-radius: 50%;
     margin: auto;
     
@@ -299,8 +303,8 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #464bee;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(31, 13, 86));
+    background-color: rgb(55,129,226);
+    background-image: linear-gradient(to right, rgb(55,129,226), rgb(31, 13, 86));
 
 }
 #about>div:nth-child(2) {
@@ -364,7 +368,8 @@ h1,h2 {
 #aboutme {
     height: 270px;
     width: 100%;
-    background-color:rgb(243, 169, 19) ;
+    /* background-color:rgb(243, 169, 19) ; */
+    background-color:rgb(55,129,226);
     position: relative;
     padding-top: 5px;
 
@@ -374,7 +379,8 @@ h1,h2 {
     color:black;
     text-decoration: underline;
     position: realtive;
-    background-color: rgb(243, 169, 19);
+    /* background-color: rgb(243, 169, 19); */
+    background-color:rgb(55,129,226);
     padding-top: 35px;
     text-align: center;
     font-weight: bolder;
@@ -383,7 +389,8 @@ h1,h2 {
 }
 
 #aboutme>div {
-    background-color: rgb(243, 169, 19);
+    /* background-color: rgb(243, 169, 19); */
+    background-color:rgb(55,129,226);
     padding-top: -30px;
     width:80%;
     margin: auto;
@@ -395,7 +402,8 @@ h1,h2 {
 }
 
 #aboutme>div>p {
-    background-color: rgb(243, 169, 19);
+    /* background-color: rgb(243, 169, 19); */
+    background-color:rgb(55,129,226);
     padding-top: 10px;
     text-align: center;
     font-weight: bolder;
@@ -435,7 +443,7 @@ h1,h2 {
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 520px;
+    /* grid-template-rows: 520px; */
     gap:100px;
     /* border:1px solid yellow; */
 }
@@ -463,7 +471,8 @@ h1,h2 {
 }
 
 .protitle {
-    color:rgb(243, 169, 19);
+    /* color:rgb(243, 169, 19); */
+    background-color:rgb(55,129,226);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 8px;
@@ -714,10 +723,47 @@ input {
     margin-bottom: 0px;
     
   }
+  /************************************************/
+  @media screen and (min-width: 901px) and (max-width: 1024px){
+    #proj {
+        width: 100%;
+        height: fit-content;
+        margin-top: 170px;
+        margin: auto;
+        position: relative;
+        border-top: 2px solid rgb(97, 94, 94);
+        padding-bottom: 20px;
+        /* border: 1px solid white; */
+    
+    }
+    
+    #proj>div {
+        width:90%;
+        height: fit-content;
+        margin: auto;
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows: 520px; */
+        gap:50px;
+        /* border:1px solid yellow; */
+    }
+    
+    #proj>div>div {
+        background-color: black;
+        opacity: 1;
+        border-radius: 15px;
+        /* border: 1px solid red; */
+        /* height: fit-content; */
+        padding-bottom: 15px;
+        height:auto;
+    }
+    
+  }
  
   /*************************************************/
 
-  @media screen and (min-width: 651px) and (max-width: 1024px) {
+  @media screen and (min-width: 651px) and (max-width: 900px) {
     #navbar {
         display:none;
     }
@@ -785,7 +831,8 @@ input {
     }
     
     .tech {
-        color:rgb(243, 169, 19);
+        /* color:rgb(243, 169, 19); */
+        background-color:rgb(55,129,226);
         width: fit-content;
         margin-left: 13%;
         border-radius: 8px;
@@ -801,16 +848,16 @@ input {
 
     #proj>div {
         width: 65%;
-        height: fit-content;
+        /* height: fit-content; */
         margin: auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 520px;
+        /* grid-template-rows: 520px;+ */
         gap:100px;
     }
 
     #proj>div>div {
-        height:470px;
+        height:auto;
     }
 /*******************************************/    
     
@@ -938,22 +985,24 @@ input {
         margin-bottom: 70px;
     }
     #proj {
-        padding-bottom: 27px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
     }
 
     #proj>div {
-        width: 65%;
-        height: fit-content;
+        width: 90%;
+        /* border: 1px solid red; */
+        /* height: fit-content; */
         margin: auto;
-        margin-bottom: 60px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 520px;
-        gap:100px;
+        grid-template-rows: auto;
+        gap:100px 0px;
     }
 
     #proj>div>div {
-        height:fit-content
+        height:fit-content;
     }
 
     
