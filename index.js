@@ -55,11 +55,14 @@ document.getElementById('pr').addEventListener("click",()=> {
 });
 
 document.getElementById('con').addEventListener("click",()=> {
-    window.scrollTo(0,4500);
+    window.scrollTo(0,4900);
 
 });
 document.getElementById('re').addEventListener("click",()=> {
-    window.open("./Yadav_Sujit_Vijayee_Resume.pdf", '_blank');
+    window.open("./Sujit_Yadav-Resume.pdf", '_blank');
+});
+document.getElementById('resume').addEventListener("click",()=> {
+    window.open("https://drive.google.com/file/d/1cYZtbTr2rJ8PJ-93lbq1_DLgY16TJ-ws/view?usp=sharing", '_blank');
 });
 
 document.getElementById('e1').addEventListener("click", ()=> {
@@ -149,7 +152,7 @@ document.getElementById('s').addEventListener("click",()=> {
 })
 
 document.getElementById('p').addEventListener("click",()=> {
-    window.scrollTo(0,2420);
+    window.scrollTo(0,2320);
 
 })
 
