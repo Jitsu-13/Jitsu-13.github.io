@@ -62,7 +62,7 @@ document.getElementById('re').addEventListener("click",()=> {
     window.open("./Sujit_Yadav-Resume.pdf", '_blank');
 });
 document.getElementById('resume').addEventListener("click",()=> {
-    window.open("https://drive.google.com/file/d/1cYZtbTr2rJ8PJ-93lbq1_DLgY16TJ-ws/view?usp=sharing", '_blank');
+    window.open("https://drive.google.com/file/d/1QhAekjzcdu3uPiryGl6_rkw3B9EsClqk/view?usp=share_link", '_blank');
 });
 
 document.getElementById('e1').addEventListener("click", ()=> {
