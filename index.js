@@ -73,7 +73,7 @@ document.getElementById('e1').addEventListener("click", ()=> {
 
 document.getElementById('e2').addEventListener("click", ()=> {
     // window.location.href = "https://chimerical-faun-6ad01a.netlify.app";
-    window.open("https://drive.google.com/file/d/17AC7ek8aS8GCkPeOS2GNrR4NdHXRNzR0/view?usp=share_link", '_blank');
+    window.open("https://drive.google.com/file/d/1aRrC6TnZWrwIW2vhzMb6-OTbjioFKF74/view?usp=sharing", '_blank');
 });
 document.getElementById('e3').addEventListener("click", ()=> {
     // window.location.href = "https://wonderful-parfait-412fbb.netlify.app";
